@@ -1,0 +1,101 @@
+#links {
+    /* display: flex;
+    flex-direction: row; */
+    text-align: center;
+    /* font-size: 10px; */
+    /* font-size: 25px; */
+    /* margin: .5%; */
+    padding: 2.5%;
+    /* font-size: 25px; */
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-left: 10px;
+    border-right: 10px;
+    background: linear-gradient(to bottom, blue, white);
+    }
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background: linear-gradient(to right, #981e17, #616161);
+    box-shadow: 10px 10px 50px 10px;
+}
+a:any-link {
+    text-decoration: none;
+    color: black;
+}
+#index-button:hover {
+    transform: scale(1.3);
+}
+#about-button:hover {
+    transform: scale(1.3);
+}
+#portfolio-button:hover {
+    transform: scale(1.3);
+}
+#index-button:visited {
+    color: blue;
+}
+#about-button:visited {
+    color: blue;
+}
+#portfolio-button:visited {
+    color: blue
+}
+
+#index-button {
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: 25px;
+    background-color: #DCDCDC;
+    color: black;
+}
+#about-button {
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: 25px;
+    background-color: #DCDCDC;
+    color: black;
+}
+#portfolio-button {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #DCDCDC;
+    color: black;
+}
+body {
+    background-color: black;
+}
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* text-decoration: underline; */
+    
+    }
+    #priority {
+        color: white;
+        font-size: 150%;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+    #quote {
+        font-style: italic;
+        color:white;
+        font-size: 150%;
+        text-align: center;
+    }
+    img {
+        height: 25%;
+        width: 25%;
+        margin-left: 37.5%;
+        
+    }
+    
+    

@@ -1,0 +1,46 @@
+/* a:any-link {
+    text-decoration: none;
+    color: black;
+} */
+body {
+    background-color: black;
+}
+#title {
+    text-decoration: underline;
+    color: white;
+}
+img {
+    height: 25%;
+    width: 25%;
+}
+#section1 {
+    border-bottom: 2px solid white;
+}
+#section2 {
+    border-bottom: 2px solid white;
+}
+#section3 {
+        border-bottom: 2px solid white;
+}
+p {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+#links > * {
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: 25px;
+    background-color: #DCDCDC;
+    color: black;
+}
+#links > *:hover {
+    transform: scale(1.3);
+}
+#links > *:visited {
+    color: blue;
+}
+#links> *:any-link {
+    text-decoration: none;
+    color: black
+}
+

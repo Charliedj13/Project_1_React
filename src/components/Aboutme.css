@@ -1,0 +1,115 @@
+#links {
+    /* display: flex;
+    flex-direction: row; */
+    text-align: center;
+    padding: 2.5%;
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-left: 10px;
+    border-right: 10px;
+    background: linear-gradient(to bottom, blue, white);
+    }
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-bottom: 2px solid black;
+        text-align: center;
+        background: linear-gradient(to right, #981e17, #616161);
+        box-shadow: 10px 10px 50px 10px;
+    }
+    /* a:any-link {
+        text-decoration: none;
+        color: black;
+    } */
+
+.test {
+    width: 5rem;
+    height: 5rem;
+
+}
+#socials {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 2px dotted black;
+        /* justify-content: center; */
+        margin-left: 29.75%;
+    
+}
+#socials > div {
+    padding: 5%;
+}
+   
+body {
+    background-color: black;
+}
+#sec1 {
+    border-bottom: 5px dotted white;
+}
+#basketball {
+    padding: 30px;
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin-left: 1%;
+    
+}
+#travel {
+    padding: 45px;
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+#text1 {
+    display: inline;
+    text-align: middle;
+    vertical-align: middle;
+}
+.title1 {
+    text-decoration: underline;
+    color: white;
+}
+#scholar {
+    padding: 30px;
+    height: 150px;
+    width: 200px;
+    vertical-align: middle;
+    float: left;
+    margin-left: 1%;
+
+    
+}
+#sec2 {
+    border-bottom: 5px dotted white;
+}
+#sec3 {
+    border-bottom: 5px solid white;
+}
+.text {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: white;
+}
+/* #links > * {
+    text-decoration: none;
+    margin-right: 10%;
+    font-size: 25px;
+    background-color: #DCDCDC;
+    color: black;
+}
+#links > * :hover {
+    transform: scale(1.3);
+}
+#links > * :visited {
+    color: blue;
+}
+#links > * :hover {
+    text-decoration: none;
+    color: black
+} */

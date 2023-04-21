@@ -1,0 +1,9 @@
+#socials {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#socials > div {
+    padding: 5%;
+}

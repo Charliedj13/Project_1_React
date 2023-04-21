@@ -1,43 +1,28 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Homepage from "./components/Homepage";
-import "./components/Homepage.css"
-import Aboutme from "./components/Aboutme"
-import "./components/Aboutme.css";
-import Portfolio from "./components/Portfolio"
-import "./components/Portfolio.css"
-
+import {createRoot} from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-const MainComponent = () => {
+import { Homepage, Aboutme, Portfolio, Header, Footer} from "./components";
+
+
+const App = () => {
     return (
         <BrowserRouter>
     <div>
-        <header id="header">
-            <h3>
-                Charles Jenkins
-            </h3>
-            <h3>
-            Creativity, Dedication, Excellence
-        </h3>
-        </header>
-        <nav id="links">
-            <Link to="/">Homepage</Link>
-            <Link to="/About-me">About Me</Link>
-            <Link to="/Portfolio">Portfolio</Link>
-        </nav>
+        <Header/>
         <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/About-me" element={<Aboutme />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/aboutme" element={<Aboutme />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
     </div>
+        <Footer/>
     </BrowserRouter>
 )}
 
-
-let appElement = document.getElementById("app")
-ReactDOM.render(<MainComponent />, appElement)
+const appElt = document.getElementById("app");
+const root = createRoot(appElt)
+root.render(<App />)
 
 
 

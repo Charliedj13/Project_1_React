@@ -1,0 +1,29 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background: linear-gradient(to right, #981e17, #616161);
+    box-shadow: 10px 10px 50px 10px;
+}
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 22%;
+    margin-bottom: 5%
+}
+
+.link {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+.link:hover {
+    transform: scale(1.3);
+}
